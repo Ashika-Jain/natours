@@ -1,6 +1,6 @@
-# NOMADS - Travel Itinerary Builder
+# NATOURS - Travel Itinerary Builder
 
-NOMADS is a comprehensive travel itinerary builder designed to simplify the process of planning trips. Whether you're a solo traveler, a family, or a group, NOMADS provides customized itineraries based on your preferences and requirements. The platform includes an interactive chatbot and a Map API to enhance the searchability and overall user experience.
+NATOURS is a comprehensive travel itinerary builder designed to simplify the process of planning trips. Whether you're a solo traveler, a family, or a group, NATOURS provides customized itineraries based on your preferences and requirements. The platform includes an interactive chatbot and a Map API to enhance the searchability and overall user experience.
 
 ## Features
 
@@ -12,15 +12,15 @@ NOMADS is a comprehensive travel itinerary builder designed to simplify the proc
 
 ## Installation
 
-Follow these steps to set up NOMADS on your local machine:
+Follow these steps to set up NATOURS on your local machine:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/NOMADS.git
+    git clone https://github.com/yourusername/natours.git
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd NOMADS
+    cd natours
     ```
 3. **Install dependencies**:
     ```bash
@@ -33,7 +33,7 @@ Follow these steps to set up NOMADS on your local machine:
 
 ## Usage
 
-Once the server is running, open your browser and navigate to `http://localhost:3000` to start using NOMADS.
+Once the server is running, open your browser and navigate to `http://localhost:3000` to start using natours.
 
 ### Using the Chatbot
 
