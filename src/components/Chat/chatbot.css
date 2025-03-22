@@ -1,0 +1,84 @@
+/* chatbot.css */
+
+/* Chatbot container */
+/* Chatbot container */
+.chatbot-container {
+    position: fixed;
+    bottom: 20px; /* Adjust vertical position */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; /* Increase the width */
+    max-width: 700px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 30px; /* Increased curve at the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+  /* Chat history */
+  .chat-history {
+    overflow-y: auto;
+    max-height: 200px;
+  }
+  
+  /* Message styles */
+  .message {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 20px; /* Increased curve at the corners */
+  }
+  
+  .user {
+    background-color: #e5e5ea;
+  }
+  
+  .bot {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Input container */
+  .input-container {
+   display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%; /* Ensure the input container spans the full width */
+  }
+  
+  /* Input field */
+  .input-field {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px; /* Increased curve at the corners */
+    background-color: #f5f5f5; /* Background color for the input field */
+    width: calc(100% - 100px); /* Calculate the width of the input field */
+    /* Adjust the value (100px) as needed */
+  }
+  
+  /* Send button */
+  .send-button {
+    margin-top: 30px; /* Move button downwards */
+    margin-left: 10px; /* Move button rightwards */
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px; /* Increased curve at the corners */
+    background-image: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%)); /* Gradient background color */
+    color: #fff;
+    cursor: pointer;
+
+  }
+  
+  .send-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Error message */
+  .error {
+    color: red;
+    margin-top: 10px;
+  }

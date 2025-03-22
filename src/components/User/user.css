@@ -1,0 +1,207 @@
+/* Import Google Fonts */
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"); */
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    /* height: 100vh; */
+    /* display: grid; */
+    background: #eef0eb;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Profile container */
+.profile {
+    margin: 20px auto 20px;
+    height: 710px;
+    width: 550px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE, Edge */
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+/* Header color */
+.header-color {
+    border-radius: 20px 20px 0 0;
+    padding-bottom: 150px;
+    width: 550px;
+    background: #896279;
+}
+
+/* Profile picture */
+.profile-pic img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+    margin-top: -100px;
+}
+
+/* Title */
+.title {
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0c120c;
+    margin-bottom: 10px;
+    letter-spacing: 0.025em;
+}
+
+h2 {
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #0c120c;
+}
+
+h2 span {
+    color: #33658a;
+    font-weight: 700;
+}
+
+.description {
+    margin-bottom: 25px;
+    color: #33658a;
+    letter-spacing: 0.01em;
+
+    p:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+.detail {
+    margin-bottom: 15px;
+}
+
+
+label {
+    font-size: 16px;
+    color: #0c120c;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+.user_button {
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    background: #896279;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    border: none;
+    border-radius: 15px;
+    min-height: 45px;
+    width: 130px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button hover effect */
+.user_button:hover {
+    width: 115px;
+    background: #4f759be0;
+}
+
+/* Images container */
+.images-container {
+    width: 350px;
+
+    .image {
+        margin-bottom: 25px;
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        i {
+            color: #9b1d20;
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+
+            span {
+                margin-left: 5px;
+                font-family: "Open Sans", sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                color: #000000;
+            }
+        }
+    }
+}
+
+/* Past trips */
+.past-trips {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -25px;
+    margin-bottom: 30px; /* Add margin from the bottom */
+}
+
+.trip {
+    width: 120px;
+    height: 100px;
+    margin: 15px;
+    background-color: #ccc6c6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trip p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}

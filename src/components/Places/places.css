@@ -1,0 +1,107 @@
+.shreya {
+    background: linear-gradient(135deg, #d0efff, #7abaff); /* Light blue gradient background */
+    margin: auto 0; /* 10% margin from top, auto to center horizontally */
+    padding: 20px; /* Equal padding from all sides */
+  }
+  
+  .outer-box {
+    
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #100C17;
+     /* Adjust opacity of the background image */
+  }
+  
+  .container {
+    font-family: "Raleway", sans-serif;
+    background-color: #D9DDD9;
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 0px 6px 14px 3px rgba(0, 0, 0, 0.75);
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+  }
+  
+  .image-content {
+    display: flex;
+    flex-direction: row; /* Align image and content in the same row */
+    align-items: center; /* Center vertically */
+  }
+  
+  .image {
+    flex: 1; /* Take up remaining space */
+    margin: 20px 0; /* Add margin from top and bottom */
+  }
+  
+  .information {
+    flex: 1; /* Take up remaining space */
+    padding: 0 20px;
+  }
+  
+  .img {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.2s ease-out;
+  }
+  
+  .img:hover,
+  .img:focus,
+  .img:active {
+    opacity: 0.8;
+  }
+  
+  h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 3em;
+    color: #100C17; /* Retain color */
+  }
+  
+  h3 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 2em;
+    color: #100C17; /* Retain color */
+  }
+  
+  p {
+    font-size: 1.1em;
+    color: #100C17; /* Retain color */
+  }
+  
+  hr {
+    border-color: grey;
+  }
+  
+  blockquote {
+    border: none;
+    font-style: italic;
+  }
+  
+  .tree {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .tree .glyphicon {
+    font-size: 70px;
+  }
+  
+  .tree a {
+    color: #658068;
+    transition: color 0.2s linear;
+    text-decoration: none;
+  }
+  
+  .tree a:hover,
+  .tree a:focus,
+  .tree a:active {
+    color: #000000;
+  }
+  
