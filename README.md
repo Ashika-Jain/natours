@@ -53,11 +53,4 @@ Once the server is running, open your browser and navigate to `http://localhost:
 - **Map API**: Google Maps API (or Mapbox API)
 - **Chatbot**: LAMA or (open ai gpt API based response generation)
 
-## Contact
-
-For any inquiries, feel free to reach out:
-
-- **Email**: pulkit.bharti21b@iiitg.ac.in, vasu.pandey21b@iiitg.ac.in, shreya.gupta21b@iiitg.ac.in
-- **LinkedIn**: https://www.linkedin.com/in/pulkit-bharti-570540242/
-- **GitHub**: https://github.com/Pulkit-03
 
